@@ -1,0 +1,43 @@
+header {
+     background-color: #c5d5c5;
+     height: 100px;
+     width: 100%;
+     position: relative;
+     margin-bottom: 30px;
+}
+ footer {
+     background-color: #c5d5c5;
+     height: 100px;
+     width: 100%;
+     position: relative;
+     margin-top: 30px;
+}
+ #profile-img {
+     height: 250px;
+     width: 250px;
+     background-color: grey;
+     position: absolute;
+     z-index: 50;
+     top:220px;
+     left: 200px;
+     border-radius: 50%;
+     border:5px solid white;
+}
+ #login {
+     position: absolute;
+     z-index: 110;
+     top:10px;
+     left:10px;
+}
+ .sidebar {
+     border-right: 3px solid grey;
+     display: inline-block;
+}
+ #skills,#languages,#education,#experience {
+     margin:20px;
+     padding: 20px;
+     background-color: lightgrey;
+}
+ ul{
+     list-style: none;
+}
