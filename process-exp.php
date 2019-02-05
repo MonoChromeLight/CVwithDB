@@ -18,7 +18,7 @@ session_id("jobadd");
 		$period = mysqli_real_escape_string($link, $_REQUEST['period']);
 
 		// Attempt insert query execution
-		$sql = "INSERT INTO experience ( job, period,user_id) VALUES ('$period', '$job', 1)";
+		$sql = "INSERT INTO experience ( job, period,user_id) VALUES (' '$job',$period', 1)";
 		if(mysqli_query($link, $sql)){
 		    //echo "Records added successfully.";
 		    $_SESSION['message']='Success';
